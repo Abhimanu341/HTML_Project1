@@ -7,71 +7,7 @@
 
 
 
-<style>
-
-    body{ 
-        background-image: url(SPaceBG.jpg);
-    }
-
-.Moon{
-height: 150px;
-width: 150px;
-border-radius: 50%;
-float: right;
-animation: Moon infinite;
-animation-duration: 2s;
-
-}
-
-.Cat{
-    height:200px;
-    width:200px;
-    margin:146px;
-    animation: CAT infinite;
-    animation-duration: 3s;
-    animation-timing-function:ease;
-
-}
-audio{
-    visibility: hidden;
-}
-
-@keyframes Moon{
-
-    
-    0% {
-        transform: rotate(0deg);
-    }
-    50% {
-        transform: rotate(180deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-
-
-@keyframes CAT{
-       0% {
-        transform: translateX(0) rotateY(-360deg);
-    }
-    25% {
-        transform: translateX(-50px);
-    }
-    50% {
-        transform: translateX(-100px) rotate(-10deg);
-    }
-    75% {
-        transform: translateX(-150px) rotate(10deg);
-    }
-    100% {
-        transform: translateX(0);
-    }
-
-}
-
-</style>
+    <link rel="stylesheet" href="styling.css"> 
 
 
 
@@ -83,9 +19,8 @@ audio{
 <img src="Moon.jpg" alt="Moon" class="Moon">
 <img src="CAT.png" alt="CAT" class="Cat">
 <audio controls autoplay>
-<source src="dangerous.mp3" type="audio/mp3">
+    <source src="dangerous.mp3" type="audio/mp3">
 </audio>
-
 
 
 </div>
